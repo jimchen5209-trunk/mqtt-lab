@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "proxy-socket"
+		},
+		{
+			"path": "python-mqtt"
+		},
+		{
+			"path": "react-chat"
+		}
+	],
+	"settings": {}
+}
