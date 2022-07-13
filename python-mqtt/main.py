@@ -36,7 +36,7 @@ client.on_message = on_message
 client.username_pw_set(username,password)
 
 # 連線至 MQTT 伺服器（伺服器位址,連接埠）
-client.connect(host, 1883)
+client.connect(host, port, keepalive)
 
 # 進入無窮處理迴圈
 client.loop_forever()
